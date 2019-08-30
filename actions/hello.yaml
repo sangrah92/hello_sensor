@@ -1,6 +1,6 @@
 ---
 name: hello
-pack: hello_stackstorm
+pack: hello_sanchit
 runner_type: "python-script"
 description: Greet StackStorm!
 enabled: true
