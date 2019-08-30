@@ -1,7 +1,7 @@
 ---
 name: hello
 pack: hello_sanchit
-runner_type: "python-script"
+runner_type: "local-shell-script"
 description: Greet StackStorm!
 enabled: true
 entry_point: hello.py
