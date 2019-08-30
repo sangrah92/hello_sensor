@@ -6,7 +6,7 @@ enabled: true
 trigger:
     type: hello_st2.event1
 action:
-    ref: hello_st2.greet
+    ref: hello_st2.hello
     parameters:
         greeting: Hello
 
