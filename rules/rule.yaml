@@ -1,12 +1,12 @@
 ---
 name: on_hello_event1
-pack: hello_stackstorm
+pack: hello_sanchit
 description: Sample rule firing on hello_st2.event1.
 enabled: true
 trigger:
-    type: hello_stackstorm.event1
+    type: hello_sanchit.event1
 action:
-    ref: hello_stackstorm.hello
+    ref: hello_sanchit.hello
     parameters:
         greeting: Hello
 
